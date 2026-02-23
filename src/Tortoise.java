@@ -1,15 +1,5 @@
-public class Tortoise {
-    private boolean coldBlooded;
-    private String skinType;
-    private boolean tail;
-    private int legs;
-    private int arms;
-    private int wings;
-    
+public class Tortoise extends Reptile{
     Tortoise() {
-        this.coldBlooded = true;
-        this.skinType = "scales";
-        this.tail = true;
         this.legs = 4;
         this.arms = 0;
         this.wings = 0;

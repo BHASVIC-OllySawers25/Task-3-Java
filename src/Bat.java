@@ -1,14 +1,5 @@
-public class Bat {
-    private boolean coldBlooded;
-    private String skinType;
-    private boolean tail;
-    private int legs;
-    private int arms;
-    private int wings;
-    
+public class Bat extends Mammal{
 	Bat() {
-        this.coldBlooded = false;
-        this.skinType = "fur";
         this.tail = true;
         this.legs = 2;
         this.arms = 0;

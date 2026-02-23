@@ -1,14 +1,5 @@
-public class Otter {
-    private boolean coldBlooded;
-    private String skinType;
-    private boolean tail;
-    private int legs;
-    private int arms;
-    private int wings;
-    
+public class Otter extends Mammal{
     Otter() {
-        this.coldBlooded = false;
-        this.skinType = "fur";
         this.tail = true;
         this.legs = 4;
         this.arms = 0;

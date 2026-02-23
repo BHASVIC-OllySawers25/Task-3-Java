@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Mammal extends Animal{
+    Mammal(){
+        this.coldBlooded = false;
+        this.skinType = "fur";
+    }
 
-public class Mammal {
 }

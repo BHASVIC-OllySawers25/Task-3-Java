@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
-public class Reptile {
+public class Reptile extends Animal{
+    Reptile(){
+        this.coldBlooded = true;
+        this.skinType = "scales";
+        this.tail = true;
+    }
 }

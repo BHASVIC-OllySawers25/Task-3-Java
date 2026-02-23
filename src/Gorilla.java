@@ -1,14 +1,5 @@
-public class Gorilla {
-    private boolean coldBlooded;
-    private String skinType;
-    private boolean tail;
-    private int legs;
-    private int arms;
-    private int wings;
-    
+public class Gorilla extends Mammal{
     Gorilla() {
-        this.coldBlooded = false;
-        this.skinType = "fur";
         this.tail = false;
         this.legs = 2;
         this.arms = 2;
